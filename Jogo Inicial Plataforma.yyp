@@ -250,7 +250,7 @@
             "Key": "98c48619-576a-42cf-be06-3c9cbf6f10aa",
             "Value": {
                 "id": "6ba8e4ef-d668-4adc-ae33-6f8048949064",
-                "resourcePath": "rooms\\room1\\room1.yy",
+                "resourcePath": "rooms\\dipper_room\\dipper_room.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -300,14 +300,6 @@
                 "id": "f61d3ff9-c86c-48f6-a0b6-f9fe237880bd",
                 "resourcePath": "views\\d012c09e-2457-4c93-8f7e-e034c9c748a7.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "dc171bc0-7417-47cd-bbe9-6fa6711586c8",
-            "Value": {
-                "id": "7a4ff3f9-f489-4838-a3a8-fb2a5fa06c54",
-                "resourcePath": "objects\\object3\\object3.yy",
-                "resourceType": "GMObject"
             }
         },
         {
