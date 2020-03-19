@@ -15,6 +15,7 @@ vspd += grv;
 
 if(hspd != 0) image_xscale = sign(hspd);
 
+#region Colisao Chao
 //COLISAO HORINZONTAL
 if place_meeting(x + hspd, y, object1)
 {	
@@ -36,6 +37,15 @@ if place_meeting(x, y + vspd, object1)
 	vspd = 0;
 }	
 y += vspd;
+#endregion
+
+
+
+
+
+
+
+
 
 //JUMP
 
@@ -46,3 +56,15 @@ if place_meeting(x, y+1, object1) and key_up
 
 #endregion
 
+if (!place_meeting(x, y+1, object1))
+{
+	if place_meeting(x, y+1, object1) 
+	{
+		sprite_index = idle;
+	}
+}
+
+if hspd = 0 
+{
+	
+}

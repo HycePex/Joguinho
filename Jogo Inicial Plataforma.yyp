@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "244dc873-264f-49f6-97a1-2d22c9a383f1",
+            "Value": {
+                "id": "09cae3a1-1a60-4bce-9c61-0f08cf752a74",
+                "resourcePath": "sprites\\jump\\jump.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2c66f43c-2b37-460a-ac9f-6b2adb4c139b",
             "Value": {
                 "id": "b3a779ef-e186-4c50-94e8-ed5eeca7ceea",
@@ -218,7 +226,7 @@
             "Key": "a710fc95-7e02-4484-ac0f-ca72d353f817",
             "Value": {
                 "id": "e6d03fcc-e45c-4eb1-9a67-71910eee5a43",
-                "resourcePath": "sprites\\sprite0\\sprite0.yy",
+                "resourcePath": "sprites\\walk\\walk.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -252,6 +260,14 @@
                 "id": "f61d3ff9-c86c-48f6-a0b6-f9fe237880bd",
                 "resourcePath": "views\\d012c09e-2457-4c93-8f7e-e034c9c748a7.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e0047474-8d64-4545-9ddb-31d84be71256",
+            "Value": {
+                "id": "4c3c7590-8902-4dbf-a9e1-c86c073e83fe",
+                "resourcePath": "sprites\\idle\\idle.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
