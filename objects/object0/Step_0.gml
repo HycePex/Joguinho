@@ -1,8 +1,10 @@
+
 #region MOVIMENTACAO
 key_up = keyboard_check(ord("W")); //pula
 key_down = keyboard_check(ord("S")); 
 key_left = keyboard_check(ord("A")); //esquerda
 key_right = keyboard_check(ord("D")); //direita
+key_shoot = keyboard_check_pressed(ord("K"));
 #endregion
 
 #region
@@ -68,3 +70,23 @@ if hspd = 0
 {
 	
 }
+
+
+
+#region TIRO
+var flipped = direction;
+var gun_x = x + 4 * (flipped);
+var _xx = x + lengthdir_x(15, image_angle);
+var y_offset = lengthdir_y(-20, image_angle);
+
+if key_shoot and global.bullets > 0
+{
+	with (instance_create_layer(_xx, y + 10, "shoot", object6))
+	{
+		global.bullets--;
+		speed = 15;
+		direction = -90 + 90 * other.image_xscale;
+		image_angle = direction;
+	}
+}
+#endregion

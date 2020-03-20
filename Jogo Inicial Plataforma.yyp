@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "047d0630-9fab-4267-8013-eb99b413c5ea",
+            "Value": {
+                "id": "09cf3858-a947-4eaf-bf4a-1496fd89987d",
+                "resourcePath": "sounds\\Music1\\Music1.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "07ee753e-d6b9-4210-ba77-a769989950e8",
             "Value": {
                 "id": "8ca7b8d5-c14a-43e7-ae24-06c9cc579d95",
@@ -100,6 +108,22 @@
                 "id": "b3a779ef-e186-4c50-94e8-ed5eeca7ceea",
                 "resourcePath": "views\\2c66f43c-2b37-460a-ac9f-6b2adb4c139b.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "2e748cf6-e858-468a-a7ee-5dfed0385cd8",
+            "Value": {
+                "id": "d858da5c-fcc4-45ca-b15b-d8b2667f97a2",
+                "resourcePath": "objects\\object5\\object5.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "3261ead7-c883-4ec9-97d0-e46dbc276862",
+            "Value": {
+                "id": "47970b0a-14db-4159-b9e3-a66aa9011440",
+                "resourcePath": "objects\\object6\\object6.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -247,11 +271,27 @@
             }
         },
         {
+            "Key": "976e1c23-e08f-4114-abae-b360bab23a17",
+            "Value": {
+                "id": "9d33bc50-4147-4817-b0db-9f061422abd4",
+                "resourcePath": "sprites\\sprite8\\sprite8.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "98c48619-576a-42cf-be06-3c9cbf6f10aa",
             "Value": {
                 "id": "6ba8e4ef-d668-4adc-ae33-6f8048949064",
                 "resourcePath": "rooms\\dipper_room\\dipper_room.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "99ecf6d6-d1a8-4b3f-9793-d9d7d7f4a8c9",
+            "Value": {
+                "id": "0f958a41-26bf-4e02-9fab-4f0590b43609",
+                "resourcePath": "objects\\song\\song.yy",
+                "resourceType": "GMObject"
             }
         },
         {
