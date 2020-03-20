@@ -4,11 +4,21 @@ key_up = keyboard_check(ord("W")); //pula
 key_down = keyboard_check(ord("S")); 
 key_left = keyboard_check(ord("A"));
 key_right = keyboard_check(ord("D")); //direita
+<<<<<<< HEAD
 key_up = keyboard_check(vk_up); //pula
 key_down = keyboard_check(vk_down); 
 key_left = keyboard_check(vk_left);
 key_right = keyboard_check(vk_right); //direita
 key_shoot = keyboard_check_pressed(ord("K"));
+=======
+
+key_up = keyboard_check(vk_up); //pula
+key_down = keyboard_check(vk_down); 
+key_left = keyboard_check(vk_left); //esquerda
+key_right = keyboard_check(vk_right); //direita
+
+
+>>>>>>> 9fd7bb21b124b900086d65d6a58109ff3eb8cc98
 #endregion
 
 #region
