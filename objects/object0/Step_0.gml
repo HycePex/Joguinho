@@ -2,8 +2,12 @@
 #region MOVIMENTACAO
 key_up = keyboard_check(ord("W")); //pula
 key_down = keyboard_check(ord("S")); 
-key_left = keyboard_check(ord("A")); //esquerda
+key_left = keyboard_check(ord("A"));
 key_right = keyboard_check(ord("D")); //direita
+key_up = keyboard_check(vk_up); //pula
+key_down = keyboard_check(vk_down); 
+key_left = keyboard_check(vk_left);
+key_right = keyboard_check(vk_right); //direita
 key_shoot = keyboard_check_pressed(ord("K"));
 #endregion
 
