@@ -58,7 +58,7 @@ y += vspd;
 
 if place_meeting(x, y+1, object1) and key_up
 {
-	vspd -= 40;	
+	vspd -= 12;	
 }
 
 #endregion
